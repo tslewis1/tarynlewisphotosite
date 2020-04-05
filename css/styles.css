@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+/* Site header styling */
+.logo-image  {
+	display: inline;
+	float: left;
+}
+
+h1, .site-title-header {
+	font-family: 'Over the Rainbow', cursive;
+	display: inline;
+	color: #434242;
+	padding-left: 33px;
+	text-align: center; 
+}
+
+/* Navigation Menu */
+.nav-bar {
+	display: inline;
+	overflow: hidden;
+	font-family: 'Liu Jian Mao Cao', cursive;
+	padding-top: 30px;
+	padding-right: 50px;
+	margin-top: 20px;
+	float: right;
+}
+
+/* Navigation Links */
+.nav-bar a {
+	float: left;
+	font-size: 16px;
+	color: #434242;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Subnavigation Menu */
+.sub-nav-item {
+	float: left;
+	overflow: hidden;
+}
+
+.sub-nav-item .sub-nav-content {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	padding: 14px 16px;
+	font-family: inherit;
+}
+
+/* Add green color to navigation links on hover */
+.nav-bar a:hover, .sub-nav-item:hover .sub-nav-content {
+	color: #91F6DF;
+}
+
+/* Style subnavigation content - positioned absolute */
+.sub-nav-content {
+	display: none;
+	position: absolute;
+	width: 100%;
+}
+
+.sub-nav-content a {
+	float: left;
+	color: #434242;
+	text-decoration: none;
+}
+
+/* Add highlight color when subnavigation content is moused over */
+.sub-nav-content a:hover {
+	color: #91F6DF;
+}
+
+/* When you mouse over the submenu links, open submenu content */
+.sub-nav-item:hover .sub-nav-content {
+	display: block;
+	margin: 16px;
+}
+
+/* Style bar underneath header and navigation */
+hr {
+	background-color: #434242;
+	height: 2px;
+	width: 100%;
+	float: left;
+	display: block;
+	border: none;
+}
+
+/* Style page text */
+h2 {
+	font-family: 'Liu Jian Mao Cao', cursive;
+	color: #91F6DF;
+	text-align: center;
+	display: block;
+	margin-top: 40px;
+}
+
+h4 {
+	font-family: 'Liu Jian Mao Cao', cursive;
+	color: #434242;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+p {
+	font-family: 'Fira Sans', sans-serif;
+	color: #434242;
+}
+
+.page-text {
+	display: inline-block;
+	width: 50%;
+	text-align: left;
+	margin: 0 auto;
+}
+
+
+.about-link {
+	text-decoration: none;
+	color: #91F6DF;
+}
+
+/* Style page images */
+.home-image{
+	width: 80%;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.about-image {
+	width: 50%;
+	display: block;
+	margin: 12px auto;
+	text-align: center;
+}
+
+.portrait-gallery-images, .event-gallery-images, .sights-gallery-images, .project-gallery-images, .animal-gallery-images {
+	width: 30%;
+	padding: 1%;
+	
+}
+
+.portrait-gallery-container, .life-in-color-container, .grayscale-gallery-container, .event-gallery-container, .sights-gallery-container, .project-gallery-container, .animal-gallery-container {	
+	margin-right: 1%;
+	margin-left: 1%;
+	text-align: center;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 8px;
+}
+
+.column {
+	flex: 30%;
+	max-width: 29%;
+	padding: 1%;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+
+.column img {
+	margin-top: 4px;
+	margin-bottom: 3%;
+	vertical-align: middle;
+	width: 100%;
+}
+
+/* Style image captions */
+
+caption {
+	display: inline-block;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 14px;
+	color: #434242;
+	margin-bottom: 1%;
+}
+
+/* Style footer */
+.footer {
+	font-family: 'Over the Rainbow', cursive;
+	color: white;
+	display: block;
+	position: absolute;
+	background-color: #434242;
+	text-align: center;
+	width: 100%;
+	float: left;
+	margin-top: auto;
+}
