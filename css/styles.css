@@ -145,13 +145,13 @@ p {
 	text-align: center;
 }
 
-.portrait-gallery-images, .event-gallery-images, .sights-gallery-images, .project-gallery-images, .animal-gallery-images {
+.gallery-images {
 	width: 30%;
 	padding: 1%;
 	
 }
 
-.portrait-gallery-container, .life-in-color-container, .grayscale-gallery-container, .event-gallery-container, .sights-gallery-container, .project-gallery-container, .animal-gallery-container {	
+.gallery-container {	
 	margin-right: 1%;
 	margin-left: 1%;
 	text-align: center;
