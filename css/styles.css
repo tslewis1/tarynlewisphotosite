@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* Load Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&family=Liu+Jian+Mao+Cao&family=Over+the+Rainbow&display=swap');
+
 body {
 	display: flex;
 	flex-direction: column;
@@ -181,8 +184,8 @@ p {
 /* Style image captions */
 
 caption {
-	display: inline-block;
-	font-family: 'Fira Sans', sans-serif;
+	display: block;
+	font-family: 'Fira Sans Condensed', sans-serif;
 	font-size: 14px;
 	color: #434242;
 	margin-bottom: 1%;
